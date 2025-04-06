@@ -1,0 +1,58 @@
+[
+	{
+	  "id": 1,
+	  "cover": "https://i.ibb.co.com/KxgWhDys/img-5.jpg",
+	  "title": "Understanding the Basics of Web Development",
+	  "des":"HTML structures content on the web, while CSS styles it for visual appeal. Together, they form the foundation of every modern website’s design and layout.",
+	  "author_img": "https://i.ibb.co.com/FLSFgzrk/author-1.jpg",
+	  "author":"Zunaid",
+	  "posted_date": "2025-04-01",
+	  "reading_time": "5 min read",
+	  "hashtags": ["#webdev", "#html", "#css", "#javascript"]
+	},
+	{
+	  "id": 2,
+	  "cover": "https://i.ibb.co.com/TMkZx0WM/img-4.jpg",
+	  "title": "Getting Started with ASP.NET Core",
+	  "des":"Web APIs allow communication between different software systems, enabling applications to send, receive, and process data over the internet using protocols like REST or GraphQL.",
+	  "author_img": "https://i.ibb.co.com/Q7YGQ2Mr/author-1.png",
+	  "author":"Hujaif",
+	  "posted_date": "2025-03-28",
+	  "reading_time": "7 min read",
+	  "hashtags": ["#dotnet", "#aspnetcore", "#backend"]
+	},
+	{
+	  "id": 3,
+	  "cover": "https://i.ibb.co.com/39xccC1b/img-3.jpg",
+	  "title": "Mastering React for Modern UI Development",
+	  "des":"Web hosting provides the server space and resources needed to store, manage, and serve websites to users globally. It’s crucial for making websites accessible online.",
+	  "author_img": "https://i.ibb.co.com/W45DJ4w6/author-3.jpg",
+	  "author":"Fawzia",
+	  "posted_date": "2025-03-15",
+	  "reading_time": "6 min read",
+	  "hashtags": ["#reactjs", "#frontend", "#javascript"]
+	},
+	{
+	  "id": 4,
+	  "cover": "https://i.ibb.co.com/Pv1nvqFN/img-2.jpg",
+	  "title": "Building a RESTful API with Node.js",
+	  "des":"Responsive web design ensures websites look great on all devices by adapting layouts, images, and content fluidly, improving usability and accessibility across screen sizes.",
+	  "author_img": "https://i.ibb.co.com/Qjd6V5Bp/author-4.png",
+	  "author":"Mafruha",
+	  "posted_date": "2025-02-20",
+	  "reading_time": "8 min read",
+	  "hashtags": ["#nodejs", "#api", "#express"]
+	},
+	{
+	  "id": 5,
+	  "cover": "https://i.ibb.co.com/DgvkThDv/img-1.jpg",
+	  "title": "Deploying Applications on Vercel and Netlify",
+	  "des":"JavaScript adds interactivity to websites, enabling dynamic content, animations, and responsive behavior. It’s essential for building user-friendly, interactive, and real-time web applications.",
+	  "author_img": "https://i.ibb.co.com/Vpv0MBMG/author-5.png",
+	  "author":"Mamun",
+	  "posted_date": "2025-01-30",
+	  "reading_time": "4 min read",
+	  "hashtags": ["#deployment", "#vercel", "#netlify", "#devops"]
+	}
+  ]
+  
