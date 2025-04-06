@@ -7,7 +7,7 @@
 	  "author_img": "https://i.ibb.co.com/FLSFgzrk/author-1.jpg",
 	  "author":"Zunaid",
 	  "posted_date": "2025-04-01",
-	  "reading_time": "5 min read",
+	  "reading_time":"5",
 	  "hashtags": ["#webdev", "#html", "#css", "#javascript"]
 	},
 	{
@@ -18,7 +18,7 @@
 	  "author_img": "https://i.ibb.co.com/Q7YGQ2Mr/author-1.png",
 	  "author":"Hujaif",
 	  "posted_date": "2025-03-28",
-	  "reading_time": "7 min read",
+	  "reading_time": "7",
 	  "hashtags": ["#dotnet", "#aspnetcore", "#backend"]
 	},
 	{
@@ -29,7 +29,7 @@
 	  "author_img": "https://i.ibb.co.com/W45DJ4w6/author-3.jpg",
 	  "author":"Fawzia",
 	  "posted_date": "2025-03-15",
-	  "reading_time": "6 min read",
+	  "reading_time": "6",
 	  "hashtags": ["#reactjs", "#frontend", "#javascript"]
 	},
 	{
@@ -40,7 +40,7 @@
 	  "author_img": "https://i.ibb.co.com/Qjd6V5Bp/author-4.png",
 	  "author":"Mafruha",
 	  "posted_date": "2025-02-20",
-	  "reading_time": "8 min read",
+	  "reading_time": "8",
 	  "hashtags": ["#nodejs", "#api", "#express"]
 	},
 	{
@@ -51,7 +51,7 @@
 	  "author_img": "https://i.ibb.co.com/Vpv0MBMG/author-5.png",
 	  "author":"Mamun",
 	  "posted_date": "2025-01-30",
-	  "reading_time": "4 min read",
+	  "reading_time": "4",
 	  "hashtags": ["#deployment", "#vercel", "#netlify", "#devops"]
 	}
   ]
