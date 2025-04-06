@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaBookmark } from "react-icons/fa";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleBookMark }) => {
 
-	console.log(blog)
+	// console.log(handleBookMark)
 
 
 
@@ -24,7 +24,10 @@ const Blog = ({ blog }) => {
 						<h3>{blog.author}</h3>
 						<img className='w-12 h-12 rounded-full' src={blog.author_img} ></img>
 
-						<FaBookmark size={25}/>
+						<button
+							onClick={()=>handleBookMark(blog)}
+
+						><FaBookmark size={25} /></button>
 
 					</div>
 					<h2 className="card-title">{blog.title}</h2>
@@ -32,7 +35,7 @@ const Blog = ({ blog }) => {
 
 					<div className="flex justify-center items-center">
 						{
-							blog.hashtags.map((has) => <p>{has}</p>)
+							blog.hashtags.map((has, index) => <p key={index} className='bg-blue-400 m-2 p-1 rounded-xl text-white'> {has} </p>)
 						}
 					</div>
 
