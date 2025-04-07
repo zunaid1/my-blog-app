@@ -15,10 +15,8 @@ import Blog from '../Blog/Blog';
 // console.log(blogs)
 
 	return (
-		<div>
-			<h1 className='text-3xl text-center'>Total : <span className='font-bold'>{blogs.length}</span> </h1>
-
-			<div className='all-blogs grid grid-cols-2 gap-2'>
+		<div className='flex flex-col md:flex-row lg:flex-row flex-wrap'>
+			<div className='all-blogs sm:flex sm:flex-col md:grid md:grid-cols-2'>
 				{
 					blogs.map(blog => 
 					<Blog 

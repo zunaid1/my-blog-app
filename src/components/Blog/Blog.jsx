@@ -5,8 +5,8 @@ const Blog = ({ blog, handleBookMark, handleMarkAsRead }) => {
 	// console.log(handleBookMark)
 
 	return (
-		<div className="m-2">
-			<div className="card bg-base-100 w-96 shadow-sm">
+		<div className="m-2 border-[3px] border-gray-200">
+			<div className="card bg-base-100 shadow-sm">
 				<figure>
 					<img src={blog.cover} alt="blog cover image" />
 				</figure>

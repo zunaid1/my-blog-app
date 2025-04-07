@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import Blogs from './components/Blogs/Blogs'
 import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 
 function App() {
 const [bookmarked, setBookmarked]= useState([])
@@ -32,16 +33,16 @@ const handleRemoveBookmark = (id) => {
     <>
   
     <Navbar></Navbar>
-<div className='main-content flex text-center'>
-  <div className='left-container w-[70%]'>
+    <div className='main-content  text-center flex flex-col-reverse md:flex-row lg:flex-row '>
+  <div className='left-container w-full md:w-[70%]  lg:w-[70%]'>
     <Blogs 
     handleBookMark={handleBookMark}
     handleMarkAsRead={handleMarkAsRead}
     ></Blogs>
   </div>
 
-  <div className='right-container w-[30%]'>
-    <h1>Reading time: {readingCount}</h1>
+  <div className='right-container w-full md:w-[30%]  lg:w-[30%]'>
+    <h1 className=''>Reading time: {readingCount}</h1>
     <h1>Bookmark Count: {bookmarked.length}</h1>
 
     {
@@ -51,11 +52,10 @@ const handleRemoveBookmark = (id) => {
 </div>
 
 
-</div>
+    </div>
 
+    <Footer></Footer>
 
-
-    
       
     </>
   )
